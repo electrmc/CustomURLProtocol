@@ -1,0 +1,7 @@
+1，NSURLRequest *request 这个是不是原始发起的请求？ 
+2，id <NSURLProtocolClient> client 这个是干什么用的
+3，NSCachedURLResponse *cachedResponse; 这个是干什么用的
+
+self.request.URL.host 这个一定会返回域名？
+经过protocol的请求有两次：一次是原始请求，一次是替换后的请求。
+验证cache了ip的请求，再次请求时会达到服务器吗？
